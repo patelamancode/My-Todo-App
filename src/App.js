@@ -46,9 +46,9 @@ function App() {
     setTodoInput("");
   }
 
-  // function SignOut(){
-  //   browserHistory.push('/SignIn')
-  // }
+  function SignOut(){
+   
+  }
 
 
 
@@ -64,14 +64,14 @@ function App() {
         width: "100%",
         }}
         >
-        {/* <nav style={{display: 'flex',justifyContent:'flex-end'}}>
+        <nav style={{display: 'flex',justifyContent:'flex-end'}}>
           <button type="submit"    
                variant="contained" 
                onClick={SignOut}
                >
                SignOut
           </button>
-        </nav> */}
+        </nav>
         <div>
           <h1>Welcome To Aman's ToDo App🙏</h1>
           <form>
