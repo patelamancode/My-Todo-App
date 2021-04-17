@@ -88,7 +88,7 @@ function App() {
               <Button 
                type="submit"    
                variant="contained" 
-               onClick={addTodo}
+               onClick={(e) => {todoInput.length !== 0 ? addTodo(e) : e.preventDefault();}}
                style={{display:"none"}}
                >
                  ClickMe!!
